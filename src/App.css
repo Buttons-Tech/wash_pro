@@ -1,0 +1,64 @@
+#root {
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  padding: 2rem;
+  /* text-align: center; */
+}
+
+
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.car-button{
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.car-button:hover {
+  background-color: #21a1f1;
+  width: 100%;
+}
+.car-container {
+  display: flex; 
+  flex: auto;
+  align-items: center;  
+  margin-top: 2rem;
+  gap: 4rem
+  
+  /* align-items: center; */
+}
+.car-container input {
+  width: 80%;
+  padding: 0.5em;
+  margin: 0.5em 0;
+  border: 1px solid #ccc;
+  border-radius: 0.25em;
+}
+.car-container p {
+  font-size: 1.2em;
+  margin: 0.5em 0;
+}
+.car-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.car-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #b1e0fd;
+  padding: 1em;
+}
