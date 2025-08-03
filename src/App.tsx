@@ -1,16 +1,33 @@
-import { useState } from 'react'
+// import Products from './components/Products'
 import './App.css'
-import Car from './components/Car'
-import Counter from './components/Counter'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import HowItWorks from './components/HowItWorks'
+import WashPacks from './components/WashPacks'
+import ToDoList from './components/ToDoList'
+import {WorksData} from './data/HowItWorksData'
+import {WashPacksData} from './data/WashPacksData'
+
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
     {/* <Counter/> */}
-     <Car />
+     {/* <Car /> */}
+
+     {/* <Button/> */}
+     {/* <Navbar/>
+     <Hero/>
+     <HowItWorks  data={WorksData} />
+     <WashPacks data={WashPacksData}/> */}
+
+    <ToDoList />
+     {/* <Shipment /> */}
+     {/* <ColorPicker /> */}
+{/* <MyComponent /> */}
+{/* <Products/> */}
     </>
   )
 }
